@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Regional identity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+  body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .text-orangered {
+    color: orangered;
+
+  }
+  .shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ 
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbar-nav .nav-link  {
+    color: darkgrey; 
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  .accordion-button {
+   background-color: #333;
+   color: whitesmoke;
+  }
+  .accordion-body {
+    background-color: #333;
+    color: whitesmoke;
+  }
+
+  footer {
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+</style>
+
+<body>
+
+  <!--nav start-->
+  <nav class="navbar navbar-expand-lg " style="background-color: #333;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-orangered shadow-text" href="#"><strong>DRFY</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: orangered;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Biodata/">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Schedule/">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Regional identity/">Regional identity</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--nav stop-->
+
+  <!--Start carousel-->
+  <div class="content">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Ngebel.jpg" class="d-block w-100" alt="Gambar Satu">
+          <div class="carousel-caption">
+            <h5 style="font-style: italic;">Telaga Ngebel</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="reog.jpg" class="d-block w-100" alt="Gambar Dua">
+          <div class="carousel-caption ">
+            <h5 style="font-style: italic;">Reog Ponorogo</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="sate-ayam.jpg" class="d-block w-100" alt="Gambar Tiga">
+          <div class="carousel-caption ">
+            <h5 style="font-style: italic;">Sate Ponorogo</h5>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="bedes.jpg" class="d-block w-100" alt="Gambar Empat">
+          <div class="carousel-caption ">
+            <h5 style="font-style: italic;">Gunung Bedes</h5>
+
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--stop carousel-->
+
+  <!--start accordian-->
+  <div class="accordion" style="margin-top: 50px;" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          <strong>Telaga Ngebel</strong> 
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <strong>Telaga Ngebel adalah sebuah danau alami yang terletak di Kabupaten Ponorogo, Jawa Timur.</strong>
+          Berada di kaki Gunung Wilis pada ketinggian sekitar 734 meter di atas permukaan laut, telaga ini memiliki
+          suasana sejuk dan pemandangan alam yang indah. Luasnya sekitar 5 kilometer dengan air yang jernih, dikelilingi
+          oleh pepohonan hijau yang asri.
+
+          Telaga Ngebel terkenal sebagai destinasi wisata bagi penduduk lokal dan wisatawan, menawarkan aktivitas
+          seperti berperahu, memancing, dan berjalan-jalan menikmati pemandangan. Tempat ini juga dikenal dalam budaya
+          lokal dan legenda setempat, yang menambah daya tarik mistis bagi pengunjung.
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          <strong>Reog Ponorogo</strong>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>Reog Ponorogo adalah salah satu kesenian tradisional yang berasal dari Kabupaten Ponorogo, Jawa
+            Timur.</strong> Tarian ini terkenal dengan pertunjukan yang menggabungkan elemen seni tari, musik, dan
+          teater, serta menceritakan kisah mitologi dan sejarah lokal. Reog Ponorogo sering ditampilkan dalam berbagai
+          acara adat dan festival, dengan tokoh utama "Singa Barong" (kepala singa besar yang terbuat dari kulit hewan)
+          yang diarak oleh seorang penari. Penari ini akan mengenakan topeng besar dan membawa beban berat di atas
+          kepala mereka, menampilkan kekuatan fisik yang luar biasa.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+          aria-controls="panelsStayOpen-collapseThree">
+          <strong>Sate Ponorogo</strong>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>Sate Ayam Ponorogo adalah salah satu makanan khas dari Ponorogo, Jawa Timur, yang sangat
+            terkenal.</strong> Sate ini terbuat dari daging ayam yang dipotong kecil-kecil, ditusuk dengan tusukan
+          bambu, dan dipanggang hingga matang. Ciri khas dari Sate Ayam Ponorogo adalah bumbu kacang yang kental, manis,
+          dan gurih, yang berbeda dengan sate ayam pada umumnya. Bumbu kacangnya terbuat dari kacang tanah yang
+          dihaluskan bersama dengan rempah-rempah seperti gula merah, kecap manis, bawang putih, dan cabai, yang
+          memberikan rasa yang kaya dan kompleks.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          <strong>Gunung Bedes</strong>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>Gunung Bedes adalah salah satu gunung yang terletak di Kabupaten Ponorogo, Jawa Timur.</strong> Gunung
+          ini dikenal sebagai tempat wisata alam yang menawarkan pemandangan indah dan udara segar. Meskipun tidak
+          setinggi gunung-gunung besar lainnya, Gunung Bedes populer sebagai tempat pendakian ringan yang cocok bagi
+          para wisatawan yang ingin menikmati keindahan alam dan suasana tenang. Di sekitar gunung, terdapat hutan hijau
+          dan pemandangan perdesaan yang menambah daya tariknya. Gunung ini juga sering dikunjungi oleh para pendaki
+          lokal dan wisatawan yang ingin menikmati keindahan alam Ponorogo dari ketinggian.
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--stop accordian-->
+
+  <!--footer start-->
+  <footer style="background-color: orangered;">
+    <div class="container " style="background-color: orangered;">
+      <p><strong>&copy; 2024 Dafa Rahma Firman Yogatama</strong></p>
+    </div>
+  </footer>
+  <!--footer stop-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>

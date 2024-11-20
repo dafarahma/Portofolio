@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biodata</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<style>
+  body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .text-orangered {
+    color: orangered;
+  }
+  .shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbar-nav .nav-link  {
+    color: darkgrey; 
+  }
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .section-title {
+    margin-bottom: 50px;
+  }
+
+  .education-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  .education-item {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+
+  .education-title {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .education-description {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+  }
+  .foto {
+    margin-top: 40px;
+    border-radius: 100%;
+  }
+
+  .profil {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .job {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color:gold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  footer {
+
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+</style>
+
+<body>
+
+  <!--nav start-->
+  <nav class="navbar navbar-expand-lg " style="background-color: #333;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-orangered shadow-text" href="#"><strong>DRFY</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="background-color: orangered;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Biodata/">Biodata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Schedule/">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Regional identity/">Regional identity</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--nav stop-->
+
+  <!--start content-->
+  <div class="content">
+    <div class="profil">
+    <img src="dafarfy.jpg" alt="Gambar Profil" width="200" class="foto"></div>
+    <h5><span class="job">Web Developer</span></h5>
+  
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-6">
+          <i style="color: darkgrey;">Nama saya Dafa Rahma Firman Yogatama. Saya lahir 10 Maret 2006 di Ponorogo, dan sekarang melanjutkan pendidikan
+            kuliah di PENS sebagai mahasiswa prodi D3 PJJ TI. Alasan saya memilih jurusan tersebut karena
+            tertarik pada prospek ke depannya yang menjanjikan. Saya juga lumayan suka mencoba hal-hal baru terkait
+            teknologi.
+
+            Di semester pertama, saya diajarkan dasar-dasar HTML, CSS, JavaScript, bahasa C, dan lain-lain. Ada juga
+            materi di luar jurusan untuk menambah wawasan.</i>
+        </div>
+        <div class="col-6">
+          <div class="education-timeline">
+            <div class="education-item">
+              <p class="education-title">Sekolah Dasar</p>
+              <p class="education-description">SD Negeri 1 Ngadirojo</p>
+            </div>
+            <div class="education-item">
+              <p class="education-title">Sekolah Menengah Pertama</p>
+              <p class="education-description">SMP Negeri 5 Ponorgo</p>
+            </div>
+            <div class="education-item">
+              <p class="education-title">Sekolah Menengah Kejurusan</p>
+              <p class="education-description">SMKN 1 Jenangan</p>
+            </div>
+            <div class="education-item">
+              <p class="education-title">Perguruan Tinggi</p>
+              <p class="education-description">Politeknik Elektronika Negeri Surabaya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--stop content-->
+
+  <!-- Footer -->
+
+  <footer style="background-color: orangered;">
+    <div class="container " style="background-color: orangered;">
+      <p><strong>&copy; 2024 Dafa Rahma Firman Yogatama</strong></p>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
